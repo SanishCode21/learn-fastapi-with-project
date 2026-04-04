@@ -1,0 +1,93 @@
+# Python General
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / Packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+
+# ML Model Files (DO NOT PUSH)
+
+#*.pkl
+#*.joblib
+#*.h5
+#*.model
+#*.sav
+
+# Streamlit
+
+.streamlit/
+
+*.log
+logs/
+*.out
+
+# IDE / Editor
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Testing / Coverage
+
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# SQLite Database (if used locally)
+
+*.db
+*.sqlite3
+
+# FastAPI / Uvicorn
+
+*.pid
+*.lock
+
+# Temporary Files
+
+tmp/
+temp/
+*.tmp
